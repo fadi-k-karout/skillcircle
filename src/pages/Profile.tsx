@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useUser } from "../context/UserContext"; // Import the custom hook
-import { UserDetailsDto, UpdateUserProfileDto } from "../dtos/UserDtos";
+import {  UpdateUserProfileDto } from "../dtos/UserDtos";
 import { useUserService } from "../services/useUserService";
 import ProfilePhotoUpdate from "../components/ProfilePhotoUpdate";
 
